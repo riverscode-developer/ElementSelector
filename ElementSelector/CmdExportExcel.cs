@@ -21,7 +21,7 @@ namespace ElementSelector
 
             Element element = doc.GetElement(reference);
 
-            Utils.ShowMessage($"Usted selecciono un elemento de la categoria {element.Category.Name}", MessageType.Information);
+            Utils.ShowMessage("La proxima clase veremos interoperabilidad con excel");
 
             return Result.Succeeded;
         }
